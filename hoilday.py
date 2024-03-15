@@ -20,6 +20,15 @@ def get_valid_city_input(city_input):
 
 # Function to validate numerical input
 def get_valid_numerical_input(numerical_input):
+    """
+    Validate numerical input.
+
+    Args:
+        numerical_input (str): The numerical input to validate.
+
+    Returns:
+        int: The validated numerical input.
+    """
     return int(numerical_input)
 
 

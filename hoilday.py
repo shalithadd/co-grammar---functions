@@ -1,5 +1,15 @@
 # Function to get a valid input using a prompt and a validation function
 def get_valid_input(prompt, validation_func):
+     """
+    Get a valid input from the user using a provided prompt and validation function.
+
+    Args:
+        prompt (str): The prompt to display to the user.
+        validation_func (function): A function that takes user input and validates it.
+
+    Returns:
+        user_input: The validated user input.
+    """
     while True:
         try:
             user_input = validation_func(input(prompt))
